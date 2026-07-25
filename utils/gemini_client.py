@@ -3,11 +3,12 @@ import time
 from dotenv import load_dotenv
 from google import genai
 from google.genai.errors import ClientError, ServerError
+import streamlit as st
 
 load_dotenv()
 
 client = genai.Client(
-    api_key=os.getenv("GEMINI_API_KEY")
+    api_key = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
 )
 
 def ask_gemini(prompt: str):

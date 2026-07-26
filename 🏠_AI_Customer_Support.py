@@ -1,6 +1,7 @@
 import json
 import sqlite3
 import time
+from database.db import create_database
 
 import streamlit as st
 
@@ -15,6 +16,8 @@ st.set_page_config(
     page_icon="🤖",
     layout="wide"
 )
+# Create database and table if they don't exist
+create_database()
 
 # ==================================================
 # Dashboard Statistics

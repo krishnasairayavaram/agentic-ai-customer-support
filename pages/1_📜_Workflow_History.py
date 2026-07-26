@@ -1,7 +1,9 @@
 import sqlite3
 import pandas as pd
 import streamlit as st
+from database.db import create_database
 
+create_database()
 st.set_page_config(
     page_title="Workflow History",
     page_icon="📜",

@@ -7,7 +7,7 @@ st.set_page_config(
 )
 st.header("🏗 System Architecture")
 
-st.image("architecture.png", use_container_width=True)
+st.image("architecture.png", width="stretch")
 st.title("ℹ️ About This Project")
 
 st.markdown("""

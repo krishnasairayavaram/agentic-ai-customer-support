@@ -105,7 +105,7 @@ request = st.text_area(
 # Process Request
 # ==================================================
 
-if st.button("🚀 Process Request", use_container_width=True):
+if st.button("🚀 Process Request", width="stretch"):
 
     if not request.strip():
 

@@ -1,3 +1,9 @@
+## 🔗 Live Demo
+
+- **Live Application:** https://agentic-ai-customer-support-kohtymrdwgvsrswrapp3d9i.streamlit.app/
+- **GitHub Repository:** https://github.com/krishnasairayavaram/agentic-ai-customer-support
+
+
 # 🤖 Agentic AI Customer Support Workflow
 
 An intelligent **Multi-Agent AI Customer Support System** built using **Google Gemini, Streamlit, and SQLite**. This project demonstrates how multiple AI agents collaborate to automate customer support by classifying requests, planning actions, routing tickets, generating professional responses, and storing the complete workflow in a database.
